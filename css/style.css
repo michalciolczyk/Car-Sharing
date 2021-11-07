@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-white: 'Nunito Sans', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+    --color-primary: #FFFFFF;
+    --color-black: #000000;
+    --color-grey1: #00000066
+    --color-white2: #FFFFFF33;
+    --color-red: #FF0000;
+    --color-grey2: #00000040;
+    -color-claret: #FF00004D;
+    --color-white3: #FFFFFF29;
+    --color-grey3: #6A6A6A;
+    --color-grey4: #28272C;
+    --color-grey5: #B2B2B2;
+    --color-grey6: #B2B2B2;
+    --color-grey7: #D1D1D1;
+
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+.container {
+    width: 1088px;
+    width: 1088px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.page-header .container {
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.page-nav-list {
+    display: flex;
+}
+
+page-nav-list li {
+    margin-right: 165px;
+}
+
+.page-nav-list a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font: normal normal bold 16px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.page-nav-list a:hover {
+    color: #213131;
+}
+
+
+.banner-title{
+    text-align: center;
+    font: normal normal bold 16px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+   text-transform: uppercase;
+}
