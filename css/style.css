@@ -168,9 +168,15 @@ article {
 .grey {
     background-color: var(--color-grey4);
 }
-.-second-article-photo-img{
+
+.-second-article-photo-img {
     height: 170px;
     width: 170px;
     opacity: 1;
     border-radius: 50%;
+}
+
+.two-cars {
+    width: 444px;
+    height: 316.5px;
 }
