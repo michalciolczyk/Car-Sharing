@@ -41,6 +41,22 @@ header {
 
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bg-red {
+    background-color: var(--color-red);
+    color: var(--color-white1);
+}
+
+.bg-white {
+    background-color: var(--color-white1);
+    color: var(--color-red);
+}
 
 .page-header .container {
     height: 88px;
@@ -91,6 +107,18 @@ header {
     font: normal normal bold 16px/22px Nunito Sans;
     letter-spacing: 1px;
     color: #FFFFFF;
+    opacity: 1;
+}
+
+btn {
+    padding: 15px 25px;
+    border: 2px solid #F35044;
+    height: 66px;
+    width: 220px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    box-shadow: 0px 3px 6px #FF00004D;
     opacity: 1;
 }
 
@@ -184,6 +212,7 @@ article {
 .footer {
     background-color: var(--color-grey4);
 }
+
 .nav-title {
     text-transform: uppercase;
     color: var(--color-red);
