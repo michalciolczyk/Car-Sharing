@@ -98,6 +98,21 @@ header {
     background-image: url("../images/image@2x.png");
 }
 
+.section-title {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.black {
+    color: var(--color-black)
+}
+
+.white {
+    color: var(--color-white);
+}
+
 
 article {
     padding: 50px;
@@ -150,5 +165,6 @@ article {
     justify-content: space-around;
 }
 
-
+.grey {
+    background-color: var(--color-grey4);
 }
