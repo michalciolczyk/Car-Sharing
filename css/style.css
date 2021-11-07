@@ -180,3 +180,30 @@ article {
     width: 444px;
     height: 316.5px;
 }
+
+.footer {
+    background-color: var(--color-grey4);
+}
+.nav-title {
+    text-transform: uppercase;
+    color: var(--color-red);
+}
+
+.footer-page-nav-list {
+    display: flex;
+}
+
+
+.footer-page-nav-list a {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: left;
+    font: normal normal bold 14px/19px Nunito Sans;
+    letter-spacing: 1px;
+    color: var(--color-white1);
+    opacity: 1;
+    padding: 20px;
+    width: 486px;
+    height: 88px;
+}
