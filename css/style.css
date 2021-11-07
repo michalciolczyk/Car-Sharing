@@ -168,3 +168,9 @@ article {
 .grey {
     background-color: var(--color-grey4);
 }
+.-second-article-photo-img{
+    height: 170px;
+    width: 170px;
+    opacity: 1;
+    border-radius: 50%;
+}
