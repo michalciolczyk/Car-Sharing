@@ -5,9 +5,9 @@
 :root {
     --font-white: 'Nunito Sans', sans-serif;
     --font-secondary: 'Open Sans', sans-serif;
-    --color-primary: #FFFFFF;
+    --color-white1: #FFFFFF;
     --color-black: #000000;
-    --color-grey1: #00000066
+    --color-grey1: #00000066;
     --color-white2: #FFFFFF33;
     --color-red: #FF0000;
     --color-grey2: #00000040;
@@ -24,13 +24,21 @@
 body {
     font-family: "Nunito Sans", sans-serif;
 }
+header{
+    background-color: var(--color-grey1);
+    display: block;
+    position: absolute;
+    padding-right: 20px;
 
+}
 
 .container {
-    width: 1088px;
-    width: 1088px;
+    height: 1088px;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 
@@ -41,28 +49,30 @@ body {
     align-items: center;
     padding-top: 40px;
 }
-
+.nav-title{
+    text-transform: uppercase;
+    color: var(--color-red);
+}
 .page-nav-list {
     display: flex;
 }
 
 page-nav-list li {
     margin-right: 165px;
+
 }
 
 .page-nav-list a {
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
     text-align: left;
     font: normal normal bold 16px/22px Nunito Sans;
     letter-spacing: 0px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-}
-
-.page-nav-list a:hover {
-    color: #213131;
+    color: var(--color-white1);
+    opacity: 1;
+  padding: 20px;
+    width: 486px;
+    height: 88px;
 }
 
 
@@ -81,4 +91,7 @@ page-nav-list li {
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+}
+.blog{
+    background-image: url("../images/image@2x.png");
 }
