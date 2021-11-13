@@ -94,7 +94,8 @@ header {
     width: 486px;
     height: 88px;
 }
-span{
+
+span {
     color: var(--color-white1);
 }
 
@@ -158,6 +159,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--color-white1);
 }
 
 .section-title::before {
@@ -186,6 +188,7 @@ span{
 
 .service {
     color: var(--color-white);
+    padding: 20px;
 }
 
 
@@ -261,7 +264,7 @@ article {
 }
 
 
-.footer-title{
+.footer-title {
     font-size: 25px;
     font-weight: 800;
     width: 53;
@@ -290,6 +293,7 @@ article {
     height: 97px;
     flex-direction: column;
 }
+
 .copyright {
     align-self: flex-end;
     color: rgb(var(--color-gray7));
